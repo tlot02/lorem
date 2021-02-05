@@ -30,14 +30,6 @@ p {
   font-size: 15px;
 }
 
-footer {
-  background-color: black;
-  color: white;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-
 .descriptive-text {
   font-style: italic;
   padding: 0 2%;
@@ -76,6 +68,7 @@ FLEX STYLES/////
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0 7.5%;
 }
 
 .flex-item {
@@ -87,6 +80,7 @@ FLEX STYLES/////
   margin: 5px 2px;
   padding: 2px 15px;
   background-color: black;
+  flex: 1 250px;
 }
 
 /* ///////////
