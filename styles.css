@@ -1,9 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300;500;900&display=swap");
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   text-align: center;
+  border: 5px black solid;
+  padding: 5% 15%;
+  margin: 5% 12% 5%;
 }
 
 h2 {
@@ -19,18 +27,68 @@ h3 {
 p {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  font-size: 15px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.descriptive-text {
+  font-style: italic;
+  padding: 0 2%;
 }
 
 .nav-link {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   list-style: none;
-  border-radius: 10%;
-  background-color: #f1f1f1;
+  background-color: black;
+  color: white;
   margin: 5px;
   padding: 2px 10px;
+}
+
+.nav-link:hover {
+  cursor: pointer;
 }
 
 #lorem-logo {
   margin-right: auto;
 }
+
+/* /////////////
+////////////////
+FLEX STYLES/////
+////////////////
+*/
+
+.nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item {
+  justify-content: center;
+}
+
+.flex-text {
+  color: white;
+  margin: 5px 2px;
+  padding: 2px 15px;
+  background-color: black;
+}
+
+/* ///////////
+////Media Queries//////
+///////////////// */
