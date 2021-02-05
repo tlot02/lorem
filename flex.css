@@ -1,0 +1,19 @@
+.nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item {
+  border: 1px solid darkgreen;
+  justify-content: center;
+}
+
+.flex-text {
+  margin: 5px 2px;
+}
