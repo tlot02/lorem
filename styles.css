@@ -44,7 +44,11 @@ p {
   flex-wrap: wrap;
   align-items: flex-end;
   margin-top: 5%;
-  margin-right: 5%;
+  margin-right: 1%;
+}
+
+.burger:hover {
+  cursor: pointer;
 }
 
 .burger span {
@@ -53,6 +57,7 @@ p {
   padding: 3px;
   margin: 1px;
   background-color: black;
+  transition: 0.4s;
 }
 
 .descriptive-text {
@@ -88,6 +93,7 @@ FLEX STYLES/////
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
+  margin-bottom: 5%;
 }
 
 .heading-container {
@@ -158,4 +164,22 @@ FLEX STYLES/////
     justify-content: center;
     margin: 10% 0;
   }
+}
+
+/* ///////////////////
+/////BURGER TRANSITION/ 
+//////////////////////*/
+
+.burger-container .change .bar-1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-10px, 0px);
+}
+
+.burger-container .change .bar-2 {
+  opacity: 0;
+}
+
+.burger-container .change .bar-3 {
+  -webkit-transform: rotate(45deg) translate(10px, -0px);
+  transform: rotate(45deg) translate(-11px, -0);
 }
