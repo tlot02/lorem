@@ -120,6 +120,12 @@ FLEX STYLES/////
 ////Media Queries//////
 ///////////////// */
 
+@media (max-width: 600px) {
+  h1 {
+    margin: 5% 5%;
+  }
+}
+
 @media (max-width: 611px) {
   /* hides the navbar acrros the top and displays the burger nav after 611px width */
   .nav-container {
@@ -141,6 +147,10 @@ FLEX STYLES/////
     max-width: 45%;
     padding: 5% 15%;
     margin: 5%;
+  }
+
+  .heading-container {
+    margin: 0 5%;
   }
 
   .descriptive-text {
