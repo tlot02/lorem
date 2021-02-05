@@ -11,14 +11,24 @@
   </head>
   <body>
     <header>
+      <!-- animated burger button -->
       <div class="burger-container">
-        <div class="burger" onclick="burgerFunction(this)">
+        <div class="burger" onclick="burgerFunction(this), displayNav(this)">
           <span class="bar-1"></span>
           <span class="bar-2"></span>
           <span class="bar-3"></span>
         </div>
       </div>
 
+      <!-- hidden navigation for mobile -->
+
+      <!-- <div id="hiddenNav">
+        <li id="lorem-1" class="mobile-nav flex-item">lorem-1</li>
+        <li id="lorem-2" class="mobile-nav flex-item">lorem-2</li>
+        <li id="lorem-3" class="mobile-nav flex-item">lorem-3</li>
+      </div> -->
+
+      <!-- larger navigation -->
       <nav>
         <div class="nav-container">
           <li id="lorem-logo" class="nav-link flex-item">lorem-logo</li>
