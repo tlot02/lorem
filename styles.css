@@ -30,6 +30,31 @@ p {
   font-size: 15px;
 }
 
+/* classes and IDs */
+.burger-container {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.burger {
+  display: flex;
+  /* border: olivedrab 2px solid; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+.burger span {
+  height: 3px;
+  width: 30px;
+  padding: 3px;
+  margin: 1px;
+  background-color: black;
+}
+
 .descriptive-text {
   font-style: italic;
   padding: 0 2%;
@@ -86,3 +111,21 @@ FLEX STYLES/////
 /* ///////////
 ////Media Queries//////
 ///////////////// */
+
+@media (max-width: 611px) {
+  /* hides the navbar acrros the top and displays the burger nav after 611px width */
+  .nav-container {
+    display: none;
+  }
+
+  .burger-container {
+    display: flex;
+  }
+
+  h1 {
+    margin-top: 7%;
+  }
+}
+
+@media screen (max-width: 950px) {
+}
