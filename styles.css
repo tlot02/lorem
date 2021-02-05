@@ -11,7 +11,7 @@ h1 {
   text-align: center;
   border: 5px black solid;
   padding: 5% 15%;
-  margin: 5% 12% 5%;
+  margin: 5% 12% 4%;
 }
 
 h2 {
@@ -89,6 +89,14 @@ FLEX STYLES/////
   flex-wrap: wrap;
   justify-content: flex-end;
 }
+
+.heading-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 7.5%;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -127,5 +135,17 @@ FLEX STYLES/////
   }
 }
 
-@media screen (max-width: 950px) {
+@media (min-width: 950px) {
+  /* at 950px this creates a 2 column layout for the h1 and the page description */
+  h1 {
+    max-width: 45%;
+    padding: 5% 15%;
+    margin: 5%;
+  }
+
+  .descriptive-text {
+    max-width: 45%;
+    justify-content: center;
+    margin: 10% 0;
+  }
 }
