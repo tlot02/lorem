@@ -71,7 +71,11 @@ p {
 
 .descriptive-text {
   font-style: italic;
-  padding: 0 2%;
+  padding: 0 2% 5%;
+}
+
+.nav-container {
+  margin: 2% 5% 5%;
 }
 
 .nav-link {
@@ -216,7 +220,7 @@ FLEX STYLES/////
   }
 
   .nav-container {
-    margin: 0% 10% 5%;
+    margin: 2% 10% 5%;
   }
 }
 
