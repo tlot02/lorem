@@ -1,7 +1,3 @@
-function burgerFunction(x) {
-  x.classList.toggle("change");
-}
-
-function displayNav(x) {
-  x.classList.toggle("hidden");
+function showNav() {
+  document.getElementsByClassName("navigation")[0].classList.toggle("active");
 }
