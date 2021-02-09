@@ -6,6 +6,9 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   margin: 0;
 }
 
@@ -98,6 +101,20 @@ p {
   display: flex;
 }
 
+.foot {
+  display: flex;
+  flex: 1;
+  background-color: black;
+  color: white;
+}
+
+.foot p {
+  margin: auto;
+  padding: 20px 0;
+  font-size: 12px;
+  font-style: italic;
+}
+
 .mobile-nav:hover {
   color: yellow;
 }
@@ -110,11 +127,8 @@ p {
   margin-right: auto;
 }
 
-#footer-text {
-  color: white;
-  background-color: black;
-  margin-bottom: 0;
-  width: 100%;
+#other-content {
+  margin-bottom: 10%;
 }
 
 /* #hiddenNav {
@@ -198,6 +212,10 @@ FLEX STYLES/////
 
   h1 {
     margin-top: 7%;
+  }
+
+  #other-content {
+    margin-bottom: 7%;
   }
 }
 
