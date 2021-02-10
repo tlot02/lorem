@@ -11,5 +11,3 @@ My project includes the following features:
 2. Nav is opened / clsoed with the hamburger icon. Also switches to a top-navigation at proper screen size.
 
 3. The mobile Nav is shown/hidden using JavaScript code. The code adds / removes a css class to the html which reveals and hides the navigation menu.
-
-# Media Queries
