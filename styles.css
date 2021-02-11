@@ -152,7 +152,6 @@ FLEX STYLES/////
 }
 
 .flex-container {
-  border: 5px green solid;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
