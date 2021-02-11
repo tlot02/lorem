@@ -33,7 +33,9 @@ h2 {
 
 h3 {
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 500;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 p {
@@ -42,6 +44,15 @@ p {
   font-size: 15px;
 }
 
+input {
+  background-color: white;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  height: 25px;
+  border: none;
+  border-radius: 15px;
+}
 /* classes and IDs */
 
 .descriptive-text {
@@ -75,6 +86,19 @@ p {
   cursor: pointer;
 }
 
+#col-section {
+  justify-content: space-around;
+  text-align: center;
+}
+
+#contact-form {
+  flex-grow: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 #lorem-logo {
   font-family: "Roboto";
   font-weight: 900;
@@ -85,6 +109,13 @@ p {
 
 #other-content {
   margin-bottom: 10%;
+}
+
+#submit-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+
+  margin: 10%;
 }
 
 /* /////////////
@@ -108,10 +139,18 @@ FLEX STYLES/////
 }
 
 .flex-container {
+  border: 5px green solid;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 7.5%;
+}
+
+.flex-col {
+  display: flex;
+  flex-flow: column wrap;
+  color: white;
+  background-color: black;
 }
 
 .flex-item {
@@ -127,12 +166,12 @@ FLEX STYLES/////
   border: 5px solid black;
 }
 
-.flex-text:hover {
+/* .flex-text:hover {
   border: 5px solid black;
   background-color: white;
   color: black;
   transition: 0.6s;
-}
+} */
 
 /* NEW NAV */
 .navigation {
@@ -271,5 +310,13 @@ FLEX STYLES/////
 
   .nav-container {
     margin: 2% 10% 5%;
+  }
+
+  #contact-form {
+    flex-grow: 2.5;
+  }
+
+  #last-lorem {
+    order: -1;
   }
 }
