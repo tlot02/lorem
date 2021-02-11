@@ -74,6 +74,7 @@ img {
 }
 
 .foot {
+  margin-top: 5%;
   display: flex;
   flex: 1;
   background-color: black;
@@ -123,12 +124,7 @@ img {
 #submit-btn {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-
   margin: 10%;
-}
-
-#redditlink,
-#last-lorem {
 }
 
 /* /////////////
@@ -136,6 +132,13 @@ img {
 FLEX STYLES/////
 ////////////////
 */
+
+.invert:hover {
+  border: 5px solid black;
+  background-color: white;
+  color: black;
+  transition: 0.6s;
+}
 
 .nav-container {
   display: flex;
@@ -330,5 +333,9 @@ FLEX STYLES/////
 
   #last-lorem {
     order: -1;
+  }
+
+  #other-content {
+    margin-bottom: 3%;
   }
 }
