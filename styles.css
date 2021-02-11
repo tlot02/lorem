@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+a {
+  color: white;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -52,6 +56,11 @@ input {
   height: 25px;
   border: none;
   border-radius: 15px;
+}
+
+img {
+  max-width: 50px;
+  height: auto;
 }
 /* classes and IDs */
 
@@ -116,6 +125,10 @@ input {
   font-size: 15px;
 
   margin: 10%;
+}
+
+#redditlink,
+#last-lorem {
 }
 
 /* /////////////
