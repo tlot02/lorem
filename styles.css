@@ -49,10 +49,11 @@ p {
 }
 
 input {
+  text-align: center;
   background-color: white;
   justify-content: center;
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   height: 25px;
   border: none;
   border-radius: 15px;
@@ -138,6 +139,7 @@ FLEX STYLES/////
   background-color: white;
   color: black;
   transition: 0.6s;
+  flex-grow: 3;
 }
 
 .nav-container {
