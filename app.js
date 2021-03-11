@@ -16,7 +16,7 @@ const addItem = () => {
   while (i < array.length) {
     string += `<div class="flex-item flex-text invert">
         <h2>${array[i].title}</h2>
-        <p>${array[i].description}<p>
+        <p>${array[i].description}</p>
       </div>`;
     i++;
   }
