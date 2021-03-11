@@ -60,9 +60,11 @@
       <div id="other-content" class="flex-container">
         <div class="flex-item flex-text">
           <form action="#">
-            <input type="text" id="title" />
-            <input type="textarea" id="description" />
-            <input id="content-submit-btn" type="submit" value="submit" />
+            <input type="text" id="title" name="title" />
+            <input type="textarea" id="description" name="description" />
+            <button onclick="addItem()" type="submit" id="content-submit-btn">
+              Submit Content
+            </button>
           </form>
         </div>
         <div id="array" class="flex-item flex-text invert">

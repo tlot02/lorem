@@ -7,6 +7,7 @@ function showNav() {
 create an array of objects. Use JS to dynamically produce the HTML from the array. Then I can use a form to submit to the array./////////////////////////////*/
 
 let array = [];
+
 const addItem = () => {
   let string = "";
   const title = document.getElementById("title").value;
