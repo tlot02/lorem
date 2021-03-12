@@ -120,6 +120,25 @@ img {
 
 #other-content {
   margin-bottom: 10%;
+  flex-direction: column;
+}
+
+#other-content input {
+  margin: 20px auto 10px;
+  max-width: 35%;
+}
+#other-content textarea {
+  font-family: "Roboto";
+  margin: 20px auto 10px;
+  max-width: 35%;
+  border-radius: 5px;
+}
+
+#main-content-submit {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin: 10%;
+  width: 300px;
 }
 
 #submit-btn {
@@ -128,6 +147,10 @@ img {
   margin: 10%;
 }
 
+#description {
+  height: 90px;
+  width: 55%;
+}
 /* /////////////
 ////////////////
 FLEX STYLES/////

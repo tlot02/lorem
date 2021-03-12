@@ -19,6 +19,7 @@ const addItem = () => {
         <h2>${array[i].title}</h2>
         <p>${array[i].description}</p>
       </div>`;
+    console.log(array);
     i++;
   }
   document.getElementById("array").innerHTML = string;

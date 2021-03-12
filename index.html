@@ -58,19 +58,26 @@
 
       <!-- Main Content Section -->
       <div id="other-content" class="flex-container">
-        <div class="flex-item flex-text">
-          <form action="#">
-            <input type="text" id="title" name="title" />
-            <input type="textarea" id="description" name="description" />
-            <button onclick="addItem()" type="submit" id="content-submit-btn">
-              Submit Content
-            </button>
+        <div class="flex-col flex-text">
+          <form class="flex-col">
+            <input
+              type="text"
+              id="title"
+              name="title"
+              placeholder="Lorem-Title"
+            />
+            <textarea
+              name="description"
+              id="description"
+              cols="30"
+              rows="10"
+              placeholder="Lorem-Text"
+            ></textarea>
+
+            <input id="main-content-submit" type="submit" onclick="addItem()" />
           </form>
         </div>
-        <div id="array" class="flex-item flex-text invert">
-          <h2>Lorem, ipsum dolor.</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
+        <div id="array" class="flex-container"></div>
       </div>
     </main>
 
