@@ -110,6 +110,17 @@ img {
   align-items: center;
 }
 
+#main-form-container {
+  border: 5px solid black;
+  width: 84%;
+  margin: auto;
+}
+
+#content-form {
+  margin: 5px 2px;
+  padding: 2px 15px;
+}
+
 #lorem-logo {
   font-family: "Roboto";
   font-weight: 900;
@@ -125,8 +136,14 @@ img {
 
 #other-content input {
   margin: 20px auto 10px;
-  max-width: 35%;
+  width: 68%;
+  border-radius: 5px;
 }
+
+#title {
+  height: 33px;
+}
+
 #other-content textarea {
   font-family: "Roboto";
   margin: 20px auto 10px;
@@ -149,7 +166,7 @@ img {
 
 #description {
   height: 90px;
-  width: 55%;
+  min-width: 68%;
 }
 /* /////////////
 ////////////////
@@ -363,5 +380,9 @@ FLEX STYLES/////
 
   #other-content {
     margin-bottom: 3%;
+  }
+
+  #other-content input {
+    width: 68%;
   }
 }
