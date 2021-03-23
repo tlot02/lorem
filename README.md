@@ -6,8 +6,10 @@ I chose to just use lorem-ipsum and a black & white design because I was too dis
 
 ## My project includes the following features:
 
-1. Uses Flexbox to organize content areas based on mobile or desktop views. Notice how the h1 and the description change from 1 column to two on a larger screen. Content boxes below also rearrange based on screen size.
+1. Uses **Flexbox to organize user-generated content** based on screen size.
 
-2. The Nav is shown/hidden using JavaScript hit clicking on the hamburger icon. The code adds / removes a css class to the html which reveals and hides the navigation menu. The same function runs whenever the user selects a menu item so that the naivation menu closes.
+2. The H1 and the description sections change from 1 column to two columns using a **media querey**.
 
-3. User generated content is added dynamically by using a JS function that pushes user-inputed data into an array which is then added to the html.
+3. The **Nav is shown/hidden using JavaScript** hit clicking on the hamburger icon. The code adds / removes a css class to the html which reveals or hides the navigation menu. The same function runs whenever the user selects a menu item so that the naivation menu closes.
+
+4. User generated content is added dynamically by using a JS function that **pushes user-inputed data into an array** which is then added to the html.
