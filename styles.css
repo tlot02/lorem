@@ -65,6 +65,14 @@ img {
 }
 /* classes and IDs */
 
+.delete-btn {
+  margin-left: 90%;
+  background-color: red;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+}
+
 .descriptive-text {
   font-style: italic;
   padding: 0 2% 5%;
