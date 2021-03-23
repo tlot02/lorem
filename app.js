@@ -3,7 +3,6 @@ function showNav() {
 }
 
 let array = [];
-
 const addItem = () => {
   let string = "";
   const title = document.getElementById("title").value;
@@ -20,3 +19,5 @@ const addItem = () => {
   }
   document.getElementById("array").innerHTML = string;
 };
+
+//Use Array.Splice to remove elements by index number. When clicking on the button, get the item
