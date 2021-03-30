@@ -12,7 +12,7 @@ I chose to just use lorem-ipsum and a black & white design because I was too dis
 
 3.  The **Nav is shown/hidden using CSS and JavaScript** by clicking on the hamburger icon. _CSS Requirement #1_
 
-The code adds / removes a css class to the html which reveals or hides the navigation menu. The same function runs whenever the user selects a menu item so that the naivation menu closes.
+    The code adds / removes a css class to the html which reveals or hides the navigation menu. The same function runs whenever the user selects a menu item so that the naivation menu closes.
 
 4.  Hamburger Icon is **animated** using CSS. _Css Requirement #6_
 
