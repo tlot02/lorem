@@ -331,30 +331,12 @@ FLEX STYLES/////
 ////Media Queries//////
 ///////////////// */
 
+/* increases the margins of the h1 as the screen gets a bit larger */
 @media (max-width: 600px) {
   h1 {
     margin: 5% 5%;
   }
 }
-
-/* hides the navbar acrros the top and displays the burger nav after 611px width */
-/* @media (max-width: 611px) {
-  .nav-container {
-    display: none;
-  }
-
-  .burger-container {
-    display: flex;
-  }
-
-  h1 {
-    margin-top: 7%;
-  }
-
-  #other-content {
-    margin-bottom: 7%;
-  }
-} */
 
 @media (min-width: 950px) {
   /* at 950px this creates a 2 column layout for the h1 and the page description */
