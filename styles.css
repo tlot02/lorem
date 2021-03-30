@@ -337,8 +337,8 @@ FLEX STYLES/////
   }
 }
 
-@media (max-width: 611px) {
-  /* hides the navbar acrros the top and displays the burger nav after 611px width */
+/* hides the navbar acrros the top and displays the burger nav after 611px width */
+/* @media (max-width: 611px) {
   .nav-container {
     display: none;
   }
@@ -354,7 +354,7 @@ FLEX STYLES/////
   #other-content {
     margin-bottom: 7%;
   }
-}
+} */
 
 @media (min-width: 950px) {
   /* at 950px this creates a 2 column layout for the h1 and the page description */

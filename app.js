@@ -20,4 +20,8 @@ const addItem = () => {
   document.getElementById("array").innerHTML = string;
 };
 
-//Use Array.Splice to remove elements by index number. When clicking on the button, get the item
+//need to create a dynamic ID first. Modify the code above.
+
+//Use Array.Splice to remove elements by index number. When clicking on the button, get the item's positon in teh array and remove it.
+
+//All to add a new event listen for onclick for each button element.
